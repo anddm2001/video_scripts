@@ -6,7 +6,7 @@ OUT="/path/to/export/directory"
 
 # Указываем расширение файлов и кодек для перекодирования
 EXTENSION="MP4"
-VIDEO_CODEC="libx264"
+VIDEO_CODEC="hevc_nvenc"
 
 # Создаем каталог для экспорта, если он не существует
 mkdir -p "$OUT"
